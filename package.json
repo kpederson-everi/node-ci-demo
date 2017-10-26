@@ -1,0 +1,29 @@
+{
+  "name": "node-ci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpederson-everi/node-ci-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpederson-everi/node-ci-demo/issues"
+  },
+  "homepage": "https://github.com/kpederson-everi/node-ci-demo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.2",
+    "supertest": "^3.0.0"
+  }
+}
